@@ -1,0 +1,11 @@
+<!-- (keyup.enter)="tag()" -->
+
+<input
+type="text"
+[placeholder]="placeholder"
+class="form-control"
+(keyup)="onKeyPress(txtSearchInput.value)"
+#txtSearchInput
+[value]="initialValue"
+>
+
